@@ -70,6 +70,12 @@ header img {
     height: var(--header-height);
 }
 
+button {
+    background-color: orangered;
+    color: white;
+    border-radius: 2px;
+}
+
 p {
     margin: var(--gutter);
     font-size: 40px;
@@ -94,3 +100,4 @@ footer {
 .hidden {
     display: none;
 };
+
