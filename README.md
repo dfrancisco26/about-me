@@ -27,7 +27,8 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1. **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
 - One event, which is the user clicking the button. It should toggle the class 'hidden' for the image of the animal.
 1. **Think about how to validate each of your features according to a Definition of Done**
-- Checking the functionality in the browser is essential, but using console.log commands throughout can help validate good coding in the "inspect" tool.
+- Checking the functionality in the browser is essential, but using console.log commands throughout can help validate working code in the "inspect" tool.
+
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
 Additional considerations:
