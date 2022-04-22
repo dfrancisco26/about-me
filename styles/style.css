@@ -68,10 +68,13 @@ header img {
     height: var(--header-height);
 }
 
-button {
+button {;
     background-color: orangered;
     color: white;
-    border-radius: 2px;
+    border-radius: 12px;
+    padding: 10px 24px;
+    border: 2px solid white;
+    
 }
 
 #tigerText {
