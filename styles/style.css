@@ -56,7 +56,7 @@ header {
 }
 
 h2 {
-    font-size: 1.8rem;
+    /*font-size:*/
     font-weight: bold;
 }
 
@@ -77,7 +77,9 @@ button {
 #tigerText {
     color: #FFD6BA;
     font-family: 'Square Peg', cursive;
+    text-align: center;
 }
+
 p {
     margin: var(--gutter);
     font-size: 40px;
