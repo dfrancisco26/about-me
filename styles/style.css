@@ -20,8 +20,8 @@ body {
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
     --gutter: 30px;
     --footer-height: 30px;
-
-    font-family: 'Hubballi', cursive;;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif, monospace;;
     background-color: var(--color2);
 }
 
@@ -49,16 +49,13 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
 
-h2 {
-    /*font-size:*/
-    font-weight: bold;
-}
+
 
 .gutter-right {
     margin-right: 20px;
@@ -79,14 +76,19 @@ button {;
 
 #tigerText {
     color: #FFD6BA;
-    font-family: 'Square Peg', cursive;
+    font-family: 'Square Peg', monospace;
     text-align: center;
+    font-size:5rem;
 }
 
+h1 {
+    text-align: center;
+}
 p {
     margin: var(--gutter);
-    font-size: 40px;
+    font-size: 30px;
     color: orangered;
+    font-family:'Courier New', Courier, monospace
 }
 
 img {
