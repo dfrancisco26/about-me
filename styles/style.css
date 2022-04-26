@@ -1,21 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 body {
     /* feel free to update these css variables for a quick theme */
 
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
+    --color1: #efeccaff;
+    --color2: #a9cbb7ff;
+    --color3: lightgrey;
+    --color4: #ff934fff;
+    --color5: #5e565aff;
 
     /* --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
@@ -27,8 +20,8 @@ body {
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
     --gutter: 30px;
     --footer-height: 30px;
-
-    font-family: 'Hubballi', cursive;;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif, monospace;;
     background-color: var(--color2);
 }
 
@@ -56,16 +49,13 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
 
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
+
 
 .gutter-right {
     margin-right: 20px;
@@ -75,8 +65,35 @@ header img {
     height: var(--header-height);
 }
 
+button {;
+    background-color: orangered;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    border: 2px solid white;
+    
+}
+
+#tigerText {
+    color: #FFD6BA;
+    font-family: 'Square Peg', monospace;
+    text-align: center;
+    font-size:5rem;
+}
+
+h1 {
+    text-align: center;
+}
 p {
     margin: var(--gutter);
+    font-size: 30px;
+    color: orangered;
+    font-family:'Courier New', Courier, monospace
+}
+
+img {
+    padding-top: 20px;
+
 }
 
 footer {
@@ -88,3 +105,8 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.hidden {
+    display: none;
+};
+
